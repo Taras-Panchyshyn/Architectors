@@ -1,0 +1,8 @@
+@font-face {
+font-family: "Emblema One";
+src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+/*додає спеціальний веб-шрифт тексту, стиль якого знаходиться за посиланнями у веб - мережі*/
+}
+body {
+font-family: "Emblema One", sans-serif;}

@@ -1,0 +1,43 @@
+
+body {
+background-color: #d2b48c;
+margin-left: 10%;
+margin-right: 10%;
+border: 2px dotted black;
+padding: 10px 10px 10px 10px;
+font-family: sans-serif;
+font-size:normal;/*задає основний розмір шрифта сторінки*/
+line-height: 2em; /*задає висоту рядка*/
+;
+}
+h1, h2, a {
+color: gray;
+text-decoration: underline;
+/*змінює колір тексту загловків h1, h2  та посилань
+border-bottom: 1px solid black;/*додає чорну лінію під заголовком h1*/
+font-size:200%; /*задає розмір шрифта для заголовків h1*/
+}
+h2 { font-size:130%;}/*задає розмір шрифта у відсотках до розміру шрифта по замовчуванню (або "родительського " тегу)*/
+p {
+color: maroon; 
+}
+h1.start {font-weight: 100;}  /*певно помилка*/
+p.pablik_proekt {color: maroon} /*додає колір maroon абзацам, що належать до класу "pablik_proekt"*/
+p.home_proekt {color: maroon}
+p.katalog_robit {color: maroon}
+
+.guarantee {
+border-color: black; /* додає рамку навколо елементу заданого класу*/
+border-width: 2px;
+border-style: solid;
+background-color: #a7cece;
+border-radius: 15px;
+padding:25px;
+margin: 25px;
+font-family: Georgia, Times New Roman, Times,serif;
+color:#444444; 
+font-style: italic; 
+background-image: url(image_all/Proekt1.png);
+background-position:top bottom;
+background-repeat:no-repeat;
+}
